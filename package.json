@@ -1,0 +1,50 @@
+{
+  "name": "pvue-vite-config",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-qrcode": "^2.0.0",
+    "@element-plus/icons-vue": "^2.1.0",
+    "@handsontable/vue3": "^13.1.0",
+    "@imycode/helper": "^0.0.3",
+    "@styils/vue": "^1.1.6",
+    "@vitejs/plugin-vue-jsx": "^3.0.2",
+    "axios": "^1.5.1",
+    "dayjs": "^1.11.9",
+    "element-plus": "^2.3.12",
+    "exceljs": "^4.3.0",
+    "file-saver": "^2.0.5",
+    "handsontable": "^13.1.0",
+    "luckyexcel": "^1.0.1",
+    "pinia": "^2.1.7",
+    "qrcode-vue3": "^1.6.8",
+    "qs": "^6.11.2",
+    "quill": "^1.2.0",
+    "sass": "^1.66.1",
+    "scrollreveal": "^4.0.9",
+    "sortablejs": "^1.15.0",
+    "v-sk": "^1.0.33",
+    "vant": "^4.7.2",
+    "vue": "^3.3.2",
+    "vue-i18n": "^9.6.2",
+    "vue-router": "^4.2.5",
+    "vue-waterfall-plugin-next": "^2.2.3",
+    "xlsx-style": "^0.8.13"
+  },
+  "devDependencies": {
+    "@vant/auto-import-resolver": "^1.0.2",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "amfe-flexible": "^2.2.1",
+    "postcss-preset-env": "^9.2.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "postcss-pxtorem": "^6.0.0",
+    "unplugin-auto-import": "^0.16.7",
+    "unplugin-vue-components": "^0.25.2",
+    "vite": "^4.3.5"
+  }
+}
