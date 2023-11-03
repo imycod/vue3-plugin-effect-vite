@@ -1,3 +1,11 @@
+/*
+ * @Author: wuxs 317009160@qq.com
+ * @Date: 2023-10-23 23:32:50
+ * @LastEditors: wuxs 317009160@qq.com
+ * @LastEditTime: 2023-11-03 07:47:42
+ * @FilePath: \react-all-in-oned:\studio\vue-project\vue3-plugin-effect-vite\src\routers\index.js
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 import { createRouter, createWebHistory } from 'vue-router';
 
 const staticRoutes = [
@@ -21,6 +29,14 @@ const staticRoutes = [
         path: '/bigScreen',
         name: 'staticRoutes.bigScreen',
         component: () => import('@/views/bigScreen/index.vue'),
+        meta: {
+            isAuth: false,
+        },
+    },
+    {
+        path: '/data-screen',
+        name: 'staticRoutes.dataScreen',
+        component: () => import('@/views/data-screen/index.vue'),
         meta: {
             isAuth: false,
         },
